@@ -2,7 +2,7 @@
 
 Este projeto demonstra a implementação de uma estrutura de **Pilha (Stack)** utilizando Java puro. A pilha é uma estrutura de dados do tipo **LIFO (Last In, First Out)**, onde o último elemento inserido é o primeiro a ser removido.
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 A classe `Pilha` possui os seguintes métodos:
 
@@ -13,7 +13,7 @@ A classe `Pilha` possui os seguintes métodos:
 - `isEmpty()`: Verifica se a pilha está vazia.
 - `listarElementos()`: Exibe todos os elementos da pilha do topo para a base.
 
-## 🧪 Exemplo de uso
+##  Exemplo de uso
 
 ```java
 public static void main(String[] args) {
@@ -32,14 +32,14 @@ public static void main(String[] args) {
     pilha.listarElementos(); // Exibe os elementos restantes da pilha
 }
 ```
-## 💡 Sobre a Implementação
+##  Sobre a Implementação
 A pilha foi implementada usando um array de inteiros.
 
 O controle do topo da pilha é feito através do índice topo.
 
 A capacidade da pilha é definida no momento da criação do objeto.
 
-## 📘 Conceitos Envolvidos
+##  Conceitos Envolvidos
 Estrutura de dados do tipo Pilha (Stack)
 
 Programação orientada a objetos (POO) em Java
