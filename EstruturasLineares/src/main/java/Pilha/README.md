@@ -33,15 +33,13 @@ public static void main(String[] args) {
 }
 ```
 ##  Sobre a Implementação
-A pilha foi implementada usando um array de inteiros.
 
-O controle do topo da pilha é feito através do índice topo.
-
-A capacidade da pilha é definida no momento da criação do objeto.
+- A pilha foi implementada usando um array de inteiros.
+- O controle do topo da pilha é feito através do índice topo.
+- A capacidade da pilha é definida no momento da criação do objeto.
 
 ##  Conceitos Envolvidos
-Estrutura de dados do tipo Pilha (Stack)
 
-Programação orientada a objetos (POO) em Java
-
-Tratamento de exceções básicas
+- Estrutura de dados do tipo Pilha (Stack)
+- Programação orientada a objetos (POO) em Java
+- Tratamento de exceções básicas
