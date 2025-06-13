@@ -26,10 +26,8 @@ nomes.add("João"); // O vetor aumentará a capacidade automaticamente
 ```
 
 ##  Conceitos Aplicados
-Estrutura de dados: Vetor (array)
 
-Crescimento dinâmico de arrays
-
-Programação orientada a objetos (POO) em Java
-
-Encapsulamento
+- Estrutura de dados: Vetor (array).
+- Crescimento dinâmico de arrays.
+- Programação orientada a objetos (POO) em Java.
+- Encapsulamento.
