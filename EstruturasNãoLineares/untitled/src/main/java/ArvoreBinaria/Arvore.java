@@ -1,7 +1,5 @@
 package ArvoreBinaria;
 
-import java.util.EmptyStackException;
-
 public class Arvore {
     private Folha folha;
     private Arvore esquerda;
