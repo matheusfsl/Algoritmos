@@ -10,6 +10,17 @@ A classe `Vetor` implementa as seguintes funcionalidades:
 - Adicionar elementos ao final do vetor.
 - Aumentar automaticamente a capacidade do vetor quando ele estiver cheio.
 
+## Complexidade de Tempo - Big O
+A complexidade das operações em um vetor dinâmico pode variar dependendo da situação:
+    | Operação                        | Complexidade Média | Complexidade Pior Caso | Justificativa                                                                                        |
+| ------------------------------- | ------------------ | ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| `add()` (sem redimensionamento) | O(1)               | O(n)                   | Inserção direta na próxima posição livre é constante. Redimensionar exige copiar todos os elementos. |
+| `add()` (com redimensionamento) | —                  | O(n)                   | Quando o vetor está cheio, é necessário alocar novo array e copiar os dados.                         |
+| Acesso por índice               | O(1)               | O(1)                   | Acesso direto ao índice é instantâneo.                                                               |
+| Busca linear                    | O(n)               | O(n)                   | É necessário percorrer todos os elementos em caso de busca.                                          |
+
+ - Observação: Apesar de o redimensionamento ter custo O(n) no pior caso, o vetor dinâmico possui desempenho amortizado eficiente, pois a operação de redimensionar não ocorre frequentemente (dobro da capacidade).
+
 ##  Exemplo de uso
 
 ```java
