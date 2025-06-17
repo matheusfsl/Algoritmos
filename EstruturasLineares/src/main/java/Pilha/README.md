@@ -13,6 +13,20 @@ A classe `Pilha` possui os seguintes métodos:
 - `isEmpty()`: Verifica se a pilha está vazia.
 - `listarElementos()`: Exibe todos os elementos da pilha do topo para a base.
 
+##  Complexidade de Tempo - Big O
+A complexidade de tempo da estrutura de dados Pilha é, na maioria dos métodos, constante, ou seja, O(1):
+
+| Método              | Complexidade | Justificativa                                                      |
+| ------------------- | ------------ | ------------------------------------------------------------------ |
+| `push()`            | O(1)         | Insere o elemento diretamente no índice do topo.                   |
+| `pop()`             | O(1)         | Remove o elemento do topo sem a necessidade de deslocar os demais. |
+| `peek()`            | O(1)         | Apenas acessa o elemento no topo sem modificações.                 |
+| `isEmpty()`         | O(1)         | Verifica se o índice do topo é -1.                                 |
+| `isFull()`          | O(1)         | Compara o índice do topo com a capacidade máxima.                  |
+| `listarElementos()` | O(n)         | Percorre todos os elementos da pilha do topo até a base.           |
+
+
+
 ##  Exemplo de uso
 
 ```java
