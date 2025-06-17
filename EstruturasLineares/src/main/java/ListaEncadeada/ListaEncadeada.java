@@ -22,18 +22,26 @@ public class ListaEncadeada {
 
     public void retirarElemento(int elemento) {
         if (inicio == null) {
+            System.out.println("Lista vazia. Nada para remover.");
             return;
         }
+
         if (inicio.elemento == elemento) {
             inicio = inicio.proximoNO;
+            System.out.println("Elemento " + elemento + " removido (era o primeiro da lista).");
             return;
         }
+
         No noAtual = inicio;
         while (noAtual.proximoNO != null && noAtual.proximoNO.elemento != elemento) {
             noAtual = noAtual.proximoNO;
         }
+
         if (noAtual.proximoNO != null) {
             noAtual.proximoNO = noAtual.proximoNO.proximoNO;
+            System.out.println("Elemento " + elemento + " removido com sucesso.");
+        } else {
+            System.out.println("Elemento " + elemento + " não encontrado na lista.");
         }
     }
 
@@ -58,6 +66,11 @@ public class ListaEncadeada {
 
         lista.retirarElemento(20);
         System.out.println("Após remover 20:");
+        lista.exibirElmentos();
+
+
+        lista.retirarElemento(99);
+        System.out.println("Após tentar remover 99:");
         lista.exibirElmentos();
 
 
