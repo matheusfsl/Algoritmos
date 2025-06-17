@@ -16,6 +16,15 @@ Este projeto implementa uma **Árvore Binária de Busca** simples em Java, compo
 - `Folha`: Representa um nó da árvore.
   - Armazena um valor inteiro.
 
+## Complexidade de Tempo - Big O
+  A performance da Árvore Binária de Busca depende da sua altura. Em uma árvore balanceada, o desempenho é ótimo. No entanto, em uma árvore desequilibrada, os custos aumentam.
+  | Operação             | Complexidade Média | Complexidade Pior Caso | Justificativa                                                                                        |
+| -------------------- | ------------------ | ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| Inserção             | O(log n)           | O(n)                   | Em média, percorre metade da altura da árvore. No pior caso (desequilibrada), percorre todos os nós. |
+| Busca                | O(log n)           | O(n)                   | Segue o mesmo raciocínio da inserção.                                                                |
+| Remoção (se existir) | O(log n)           | O(n)                   | Também depende da altura da árvore.                                                                  |
+-  Observação: n representa o número de nós na árvore. Para garantir desempenho ideal, seria necessário usar uma árvore balanceada (como AVL ou Red-Black Tree).
+  
 ##  Exemplo de uso
 
 ```java
