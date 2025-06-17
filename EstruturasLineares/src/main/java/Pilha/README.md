@@ -25,7 +25,7 @@ A complexidade de tempo da estrutura de dados Pilha é, na maioria dos métodos,
 | `isFull()`          | O(1)         | Compara o índice do topo com a capacidade máxima.                  |
 | `listarElementos()` | O(n)         | Percorre todos os elementos da pilha do topo até a base.           |
 
-
+- Observação: n representa o número de elementos atualmente armazenados na pilha. Embora a maioria das operações seja extremamente rápida (O(1)), métodos que percorrem toda a estrutura, como listarElementos(), têm custo linear (O(n)).
 
 ##  Exemplo de uso
 
