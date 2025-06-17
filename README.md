@@ -7,7 +7,7 @@ Este repositório tem como objetivo documentar e compartilhar meus estudos sobre
 ## Tecnologias
 
 - ☕ Java 17+
-- 🧠 Estrutura de Dados (Listas, Pilhas, Filas, Árvores, Grafos, etc)
+- 🧠 Estrutura de Dados
 - 🔁 Algoritmos (Busca, Ordenação, Recursão, etc)
 - 📊 Análise de complexidade (Big O)
 
